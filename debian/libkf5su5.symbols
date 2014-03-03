@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5Su.so.4 libkf5su4 #MINVER#
+libKF5Su.so.5 libkf5su5 #MINVER#
  _ZN5KDESu10PtyProcess10unreadLineERK10QByteArrayb@Base 4.96.0
  _ZN5KDESu10PtyProcess11setTerminalEb@Base 4.96.0
  _ZN5KDESu10PtyProcess12virtual_hookEiPv@Base 4.96.0
