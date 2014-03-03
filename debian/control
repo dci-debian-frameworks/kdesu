@@ -13,13 +13,13 @@ Homepage: https://projects.kde.org/projects/frameworks/kdesu
 Package: libkf5su-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5su4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5su5 (= ${binary:Version}), ${misc:Depends}
 Description: development files for kdesu
  Framework to handle super user actions.
  .
  Contains development files for kdesu.
  
-Package: libkf5su4
+Package: libkf5su5
 Architecture: any
 Multi-Arch: allowed
 Pre-Depends: ${misc:Pre-Depends}
@@ -27,12 +27,12 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Integration with su for elevated privileges.
  Framework to handle super user actions
 
-Package: libkf5su4-dbg
+Package: libkf5su5-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: allowed
-Depends: libkf5su4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5su5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for kdesu
  Framework to handle super user actions
  .
