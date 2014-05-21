@@ -3,29 +3,29 @@ Section: libs
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.13), qtbase5-dev, libkf5pty-dev (>= 4.99.0), libkf5coreaddons-dev (>= 4.99.0), libkf5service-dev (>= 4.99.0),
- libkf5config-dev (>= 4.99.0), libkf5dbusaddons-dev (>= 4.99.0),
- libkf5i18n-dev (>= 4.99.0), libkf5kjs-dev (>= 4.99.0)
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.13),
+               libkf5config-dev (>= 4.99.0),
+               libkf5coreaddons-dev (>= 4.99.0),
+               libkf5dbusaddons-dev (>= 4.99.0),
+               libkf5i18n-dev (>= 4.99.0),
+               libkf5kjs-dev (>= 4.99.0),
+               libkf5pty-dev (>= 4.99.0),
+               libkf5service-dev (>= 4.99.0),
+               pkg-kde-tools,
+               qtbase5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdesu
 
-Package: libkf5su-dev
+Package: libkf5su5
 Section: libdevel
 Architecture: any
-Depends: libkf5su5 (= ${binary:Version}), ${misc:Depends}
-Description: development files for kdesu
- Framework to handle super user actions.
- .
- Contains development files for kdesu.
- 
-Package: libkf5su5
-Architecture: any
-Multi-Arch: allowed
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Integration with su for elevated privileges.
  Framework to handle super user actions
+Multi-Arch: allowed
+Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5su5-dbg
 Priority: extra
