@@ -33,7 +33,6 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Integration with su for elevated privileges.
  Framework to handle super user actions
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5su5-dbg
 Priority: extra
