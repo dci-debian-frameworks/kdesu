@@ -1,4 +1,2 @@
 usr/lib/*/libKF5Su.so.4*
 usr/lib/*/libKF5Su.so.5
-usr/lib/*/libexec/kf5/kdesu_stub
-usr/lib/*/libexec/kf5/kdesud
