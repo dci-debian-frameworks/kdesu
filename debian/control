@@ -27,9 +27,20 @@ Description: development files for kdesu
  .
  Contains development files for kdesu.
 
+Package: libkf5su-bin
+Architecture: any
+Depends: ${shlibs:Depens}, ${misc:Depends}
+Breaks: libkf5su5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
+Replaces: libkf5su5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
+Description: development files for kdesu
+ Framework to handle super user actions.
+ .
+ Contains runtime files for kdesu.
+
 Package: libkf5su5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: libkf5su-bin (= ${binary:Version})
 Description: Integration with su for elevated privileges.
  Framework to handle super user actions
 Multi-Arch: same
