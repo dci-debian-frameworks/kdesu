@@ -29,7 +29,7 @@ Description: development files for kdesu
 
 Package: libkf5su-bin
 Architecture: any
-Depends: ${shlibs:Depens}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: libkf5su5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
 Replaces: libkf5su5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
 Description: development files for kdesu
