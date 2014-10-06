@@ -1,6 +1,7 @@
 kdesu (5.3.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Install translations into libkf5su5
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 06 Oct 2014 11:29:34 +0100
 
