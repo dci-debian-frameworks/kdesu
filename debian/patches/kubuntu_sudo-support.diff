@@ -2,20 +2,20 @@ Description: Fix sudo support
 Forwarded: https://git.reviewboard.kde.org/r/120380/
 Author: Jonathan Riddell <jriddell@ubuntu.com>
 Last-Update: 2014-26-09
-Index: kdesu-5.2.0/CMakeLists.txt
+Index: kdesu/CMakeLists.txt
 ===================================================================
---- kdesu-5.2.0.orig/CMakeLists.txt
-+++ kdesu-5.2.0/CMakeLists.txt
+--- kdesu.orig/CMakeLists.txt
++++ kdesu/CMakeLists.txt
 @@ -63,4 +63,5 @@ install(FILES
-   DESTINATION ${KF5_INCLUDE_INSTALL_DIR} COMPONENT Devel
+   DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5} COMPONENT Devel
  )
  
 +message("Note: pass -DKDESU_USE_SUDO_DEFAULT=true to use sudo instead of su")
  feature_summary(WHAT ALL   FATAL_ON_MISSING_REQUIRED_PACKAGES)
-Index: kdesu-5.2.0/src/CMakeLists.txt
+Index: kdesu/src/CMakeLists.txt
 ===================================================================
---- kdesu-5.2.0.orig/src/CMakeLists.txt
-+++ kdesu-5.2.0/src/CMakeLists.txt
+--- kdesu.orig/src/CMakeLists.txt
++++ kdesu/src/CMakeLists.txt
 @@ -30,6 +30,7 @@ add_library(KF5Su ${kdesu_LIB_SRCS})
  generate_export_header(KF5Su BASE_NAME KDESu EXPORT_FILE_NAME kdesu/kdesu_export.h)
  add_library(KF5::Su ALIAS KF5Su)
