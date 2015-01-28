@@ -10,6 +10,7 @@ kdesu (5.6.0-1~) UNRELEASED; urgency=medium
   * Update watch file.
   * Add basic autopkgtests support.
   * Refresh patches.
+  * Comment out -DKDESU_USE_SUDO_DEFAULT=True.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 28 Jan 2015 08:45:20 +0100
 
