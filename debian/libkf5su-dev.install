@@ -1,4 +1,5 @@
-usr/include/KF5/
+usr/include/KF5/KDESu/
+usr/include/KF5/kdesu_version.h
 usr/lib/*/cmake/KF5Su/
 usr/lib/*/libKF5Su.so
 usr/lib/*/qt5/mkspecs/modules/qt_KDESu.pri
