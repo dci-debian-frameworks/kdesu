@@ -41,7 +41,9 @@ Description: runtime files for kdesu
 Package: libkf5su5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}, libkf5su-data (= ${source:Version})
+Depends: libkf5su-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: libkf5su-bin (= ${binary:Version})
 Description: Integration with su for elevated privileges.
  Framework to handle super user actions
