@@ -53,6 +53,8 @@ Package: libkf5su-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
+Breaks: libkf5su5 (<< 5.10)
+Replaces: libkf5su5 (<< 5.10)
 Description: translation files for kdesu
  Framework to handle super user actions
  .
