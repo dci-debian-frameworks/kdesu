@@ -1,6 +1,10 @@
 kdesu (5.10.0-0ubuntu2) UNRELEASED; urgency=medium
 
+  [ José Manuel Santamaría Lema ]
   * libkf5su-data Breaks/Replaces libkf5su5 (<< 5.10)
+
+  [ Jonathan Riddell ]
+  * Remove kubuntu_sudo-support.diff now upstream
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Mon, 08 Jun 2015 10:33:24 +0200
 
