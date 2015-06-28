@@ -1,4 +1,4 @@
-kdesu (5.11.0-1~) UNRELEASED; urgency=medium
+kdesu (5.11.0-1) unstable; urgency=medium
 
   * New upstream release (5.11.0).
 
@@ -8,7 +8,9 @@ kdesu (5.11.0-1~) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * Remove kubuntu_sudo-support.diff now upstream
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 28 Jun 2015 15:01:59 +0200
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 28 Jun 2015 15:56:23 +0200
 
 kdesu (5.10.0-0ubuntu1) wily; urgency=medium
 
