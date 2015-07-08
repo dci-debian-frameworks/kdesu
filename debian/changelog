@@ -1,3 +1,13 @@
+kdesu (5.11.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  [ José Manuel Santamaría Lema ]
+  * libkf5su-data Breaks/Replaces libkf5su5 (<< 5.10)
+
+  [ Scarlett Clark ]
+  * Vivid backport
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 08 Jul 2015 08:14:22 -0700
+ 
 kdesu (5.11.0-1) unstable; urgency=medium
 
   * New upstream release (5.11.0).
