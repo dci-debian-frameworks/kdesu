@@ -5,8 +5,23 @@ kdesu (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
+  * Fix merge, remove unused broken backport.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:05:25 -0700
+ 
+kdesu (5.11.0-1) unstable; urgency=medium
+
+  * New upstream release (5.11.0).
+
+  [ José Manuel Santamaría Lema ]
+  * libkf5su-data Breaks/Replaces libkf5su5 (<< 5.10)
+
+  [ Jonathan Riddell ]
+  * Remove kubuntu_sudo-support.diff now upstream
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 28 Jun 2015 15:56:23 +0200
 
 kdesu (5.10.0-0ubuntu1) wily; urgency=medium
 
