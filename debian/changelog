@@ -8,6 +8,8 @@ kdesu (5.12.0-0ubuntu1) wily; urgency=medium
 
   [ José Manuel Santamaría Lema ]
   * libkf5su-data Breaks/Replaces libkf5su5 (<< 5.10)
+  * Fix debian/rules so it will be built wiht "-DKDESU_USE_SUDO_DEFAULT=true"
+    for Ubuntu and without it somewhere else.
 
   [ Scarlett Clark ]
   * New upstream release
