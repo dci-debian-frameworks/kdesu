@@ -1,0 +1,23 @@
+commit 3d252cc2aa3fa3530483154a93a377bbd4372196
+Author: Pino Toscano <pino@kde.org>
+Date:   Fri Sep 18 23:25:48 2015 +0200
+
+    kWarning -> qWarning
+    
+    fix build when using the stub implementation of SocketSecurity
+
+diff --git a/src/kdesud/secure.cpp b/src/kdesud/secure.cpp
+index 22326a4..a36c051 100644
+--- a/src/kdesud/secure.cpp
++++ b/src/kdesud/secure.cpp
+@@ -87,8 +87,8 @@ SocketSecurity::SocketSecurity(int sockfd) : pid(-1), gid(-1), uid(-1)
+     static bool warned_him = false;
+ 
+     if (!warned_him) {
+-        kWarning() << "Using void socket security. Please add support for your" ;
+-        kWarning() << "platform to src/kdesud/secure.cpp" ;
++        qWarning() << "Using void socket security. Please add support for your" ;
++        qWarning() << "platform to src/kdesud/secure.cpp" ;
+         warned_him = true;
+     }
+ 
