@@ -2,6 +2,7 @@ kdesu (5.15.0-1~) UNRELEASED; urgency=medium
 
   * Add upstream patch: upstream_kwarning_to_qwarning.diff
   * New upstream release (5.15.0).
+  * Drop upstream patch: upstream_kwarning_to_qwarning.diff
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 05 Oct 2015 15:08:06 +0200
 
