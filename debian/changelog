@@ -1,10 +1,10 @@
-kdesu (5.15.0-1~) UNRELEASED; urgency=medium
+kdesu (5.15.0-1) unstable; urgency=medium
 
   * Add upstream patch: upstream_kwarning_to_qwarning.diff
   * New upstream release (5.15.0).
   * Drop upstream patch: upstream_kwarning_to_qwarning.diff
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 05 Oct 2015 15:08:06 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:17:03 +0200
 
 kdesu (5.14.0-1) unstable; urgency=medium
 
