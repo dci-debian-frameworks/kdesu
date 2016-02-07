@@ -58,14 +58,3 @@ Description: translation files for kdesu
  Framework to handle super user actions
  .
  Contains translation files for kdesu.
-
-Package: libkf5su5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libkf5su5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for kdesu
- Framework to handle super user actions
- .
- Contains debug symbols for kdesu.
