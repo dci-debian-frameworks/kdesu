@@ -11,6 +11,16 @@ kdesu (5.18.0-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:34:50 +0100
 
+kdesu (5.18.0-0ubuntu1) xenial; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release Xenial
+
+  [ Philip Muškovac ]
+  * New upstream release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 14:59:42 +0100
+
 kdesu (5.16.0-1) unstable; urgency=medium
 
   * New upstream release (5.16.0).
@@ -25,11 +35,33 @@ kdesu (5.15.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:17:03 +0200
 
+kdesu (5.15.0-0ubuntu2) xenial; urgency=medium
+
+  * Fix autopackagetests by adding allow-stderr to the requirements.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 03 Nov 2015 15:34:36 +0100
+
+kdesu (5.15.0-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * Vivid backport
+
+  [ Jonathan Riddell ]
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:47:08 +0100
+
 kdesu (5.14.0-1) unstable; urgency=medium
 
   * New upstream release (5.14.0).
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:50:22 +0200
+
+kdesu (5.14.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 13:14:00 +0100
 
 kdesu (5.13.0-1) unstable; urgency=medium
 
@@ -37,11 +69,31 @@ kdesu (5.13.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 30 Aug 2015 23:38:33 +0200
 
+kdesu (5.13.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 12:59:01 +0200
+
 kdesu (5.12.0-1) unstable; urgency=medium
 
   * New upstream release (5.12.0).
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jul 2015 12:44:17 +0200
+
+kdesu (5.12.0-0ubuntu1) wily; urgency=medium
+
+  [ José Manuel Santamaría Lema ]
+  * libkf5su-data Breaks/Replaces libkf5su5 (<< 5.10)
+  * Fix debian/rules so it will be built wiht "-DKDESU_USE_SUDO_DEFAULT=true"
+    for Ubuntu and without it somewhere else.
+
+  [ Scarlett Clark ]
+  * New upstream release
+  * Fix merge, remove unused broken backport.
+  * Vivid backport. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 14:28:29 +0200
 
 kdesu (5.11.0-1) unstable; urgency=medium
 
