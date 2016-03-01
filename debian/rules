@@ -12,4 +12,4 @@ override_dh_auto_configure:
 	$(overridden_command) -- $(KDESU_USE_SUDO_DEFAULT)
 
 override_dh_strip:
-	$(overridden_command) --ddeb-migration='libkf5su5-dbg (<= 5.19.0-1~~)'
+	$(overridden_command) --dbgsym-migration='libkf5su5-dbg (<= 5.19.0-1~~)'
