@@ -14,8 +14,8 @@ Build-Depends: cmake (>= 2.8.12),
                qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kdesu
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kdesu.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kdesu.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kdesu.git
+Vcs-Git: https://anonscm.debian.org/pkg-kde/frameworks/kdesu.git
 
 Package: libkf5su-dev
 Section: libdevel
