@@ -1,6 +1,6 @@
-kdesu (5.20.0-1~2.gbp3455e1) UNRELEASED; urgency=medium
+kdesu (5.20.0-1~3.gbp0badb8) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @3455e1bff55b01fa64624977e90e4696a2dfdd72 **
+  ** SNAPSHOT build @0badb8e0cc42b938ab43f311a79fabf33b958d4a **
 
   [ Scarlett Clark ]
   * Vivid backport
@@ -63,8 +63,9 @@ kdesu (5.20.0-1~2.gbp3455e1) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * Update acc test script
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:35:14 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:35:26 +0200
 
 kdesu (5.19.0-1) experimental; urgency=medium
 
