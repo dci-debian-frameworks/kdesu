@@ -1,3 +1,68 @@
+kdesu (5.20.0-1~1.gbpe196e3) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @e196e3b1c2c14f0c0496368b70d531c6572e520f **
+
+  [ Scarlett Clark ]
+  * Vivid backport
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * Fix debian/rules so it will be built wiht "-DKDESU_USE_SUDO_DEFAULT=true" for Ubuntu and without it somewhere else.
+
+  [ Scarlett Clark ]
+  * Vivid backport.
+
+  [ Jonathan Riddell ]
+  * Release to wily.
+  * new upstream release
+  * Fix debian/rules so it will be built wiht "-DKDESU_USE_SUDO_DEFAULT=true" for Ubuntu and without it somewhere else.
+  * ecm build-dep now 5.13.0
+  * Release to wily.
+
+  [ Clive Johnston ]
+  * new upstream release
+
+  [ Jonathan Riddell ]
+  * Release to wily.
+
+  [ Scarlett Clark ]
+  * Vivid backport
+
+  [ Jonathan Riddell ]
+  * new upstream release
+  * NOCI Release to wily.
+
+  [ Scarlett Clark ]
+  * Vivid backport.
+
+  [ Philip Muškovac ]
+  * Fix autopackagetests by adding allow-stderr to the requirements
+
+  [ Rohan Garg ]
+  * Drop empty folder
+
+  [ Scarlett Clark ]
+  * New upstream release Xenial
+
+  [ Philip Muškovac ]
+  * New upstream release
+  * Remove accidentally added epoch
+  * Release to xenial
+
+  [ Maximiliano Curia ]
+  * trailing space
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Scarlett Clark ]
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 30 Mar 2016 10:35:23 +0200
+
 kdesu (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
