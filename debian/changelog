@@ -1,6 +1,6 @@
-kdesu (5.20.0-1~3.gbp0badb8) UNRELEASED; urgency=medium
+kdesu (5.21.0-1~1.gbp89faaa) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @0badb8e0cc42b938ab43f311a79fabf33b958d4a **
+  ** SNAPSHOT build @89faaa85879836cfbe0b7e4f9c5dcaf208653e70 **
 
   [ Scarlett Clark ]
   * Vivid backport
@@ -64,8 +64,14 @@ kdesu (5.20.0-1~3.gbp0badb8) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Update acc test script
   * UNRELEASED
+  * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:35:26 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:35:16 +0200
 
 kdesu (5.19.0-1) experimental; urgency=medium
 
