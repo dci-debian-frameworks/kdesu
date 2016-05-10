@@ -1,3 +1,11 @@
+kdesu (5.21.0-2~1.gbp0cbe9b) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @0cbe9b8b0ada15e81ab029a9d5a5630b9506f44e **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 10 May 2016 16:13:34 +0200
+
 kdesu (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
