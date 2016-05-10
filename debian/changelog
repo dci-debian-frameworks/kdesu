@@ -1,77 +1,16 @@
-kdesu (5.21.0-1~1.gbp89faaa) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @89faaa85879836cfbe0b7e4f9c5dcaf208653e70 **
-
-  [ Scarlett Clark ]
-  * Vivid backport
-  * New upstream release
-
-  [ Jonathan Riddell ]
-  * Fix debian/rules so it will be built wiht "-DKDESU_USE_SUDO_DEFAULT=true" for Ubuntu and without it somewhere else.
-
-  [ Scarlett Clark ]
-  * Vivid backport.
-
-  [ Jonathan Riddell ]
-  * Release to wily.
-  * new upstream release
-  * Fix debian/rules so it will be built wiht "-DKDESU_USE_SUDO_DEFAULT=true" for Ubuntu and without it somewhere else.
-  * ecm build-dep now 5.13.0
-  * Release to wily.
-
-  [ Clive Johnston ]
-  * new upstream release
-
-  [ Jonathan Riddell ]
-  * Release to wily.
-
-  [ Scarlett Clark ]
-  * Vivid backport
-
-  [ Jonathan Riddell ]
-  * new upstream release
-  * NOCI Release to wily.
-
-  [ Scarlett Clark ]
-  * Vivid backport.
-
-  [ Philip Muškovac ]
-  * Fix autopackagetests by adding allow-stderr to the requirements
-
-  [ Rohan Garg ]
-  * Drop empty folder
-
-  [ Scarlett Clark ]
-  * New upstream release Xenial
-
-  [ Philip Muškovac ]
-  * New upstream release
-  * Remove accidentally added epoch
-  * Release to xenial
+kdesu (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
-  * trailing space
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * debian/control: Update Vcs-Browser and Vcs-Git fields
-
-  [ Automatic packaging ]
-  * Update build-deps and deps with the info from cmake
-
-  [ Scarlett Clark ]
-
-  [ Maximiliano Curia ]
   * Update acc test script
-  * UNRELEASED
   * uscan no longer supports more than one main upstream tarball being listed
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
-  [ Maximiliano Curia ]
-
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:35:16 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 10 May 2016 14:42:39 +0200
 
 kdesu (5.19.0-1) experimental; urgency=medium
 
