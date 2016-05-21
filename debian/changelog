@@ -1,11 +1,10 @@
-kdesu (5.22.0-1~1.gbpb838f0) UNRELEASED; urgency=medium
+kdesu (5.22.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @b838f02f8b99c03897ba95f138fe8440ebe74460 **
-
+  [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 17:35:11 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 10:12:06 +0200
 
 kdesu (5.21.0-1) experimental; urgency=medium
 
