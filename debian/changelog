@@ -1,10 +1,9 @@
-kdesu (5.23.0-1~1.gbpe5dde1) UNRELEASED; urgency=medium
+kdesu (5.23.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @e5dde17c824c216ff16a987a1d19782eb940ee3f **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 12 Jun 2016 23:35:27 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Jun 2016 18:40:48 +0200
 
 kdesu (5.22.0-1) unstable; urgency=medium
 
