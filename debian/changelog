@@ -1,17 +1,12 @@
-kdesu (5.25.0-1~2.gbp10f816) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @10f8169333e98f2891af8abb20d276a68f58b024 **
+kdesu (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @a9ea8fb33b9887b98e7f7f814d29b540cb769fcd **
-
-  * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Bump group breaks (5.25)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:35:18 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 20 Aug 2016 09:58:39 +0200
 
 kdesu (5.23.0-1) unstable; urgency=medium
 
