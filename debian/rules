@@ -3,8 +3,13 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
+# Debian/Ubuntu divergence, Ubuntu uses sudo by default
+ifeq ($(shell dpkg-vendor --derives-from Ubuntu && echo yes),yes)
+	KDESU_USE_SUDO_DEFAULT="-DKDESU_USE_SUDO_DEFAULT=true"
+endif
+
 override_dh_auto_configure:
-	$(overridden_command) -- -DKDESU_USE_SUDO_DEFAULT=true
+	$(overridden_command) -- $(KDESU_USE_SUDO_DEFAULT)
 
 override_dh_strip:
 	$(overridden_command) --dbgsym-migration='libkf5su5-dbg (<= 5.19.0-1~~)'
