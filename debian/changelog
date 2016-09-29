@@ -1,10 +1,12 @@
-kdesu (5.26.0-1~1.gbp444c4c) UNRELEASED; urgency=medium
+kdesu (5.26.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @444c4ccebcf2445f71f28674434b973654d28580 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 17:35:47 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 12:00:50 +0200
 
 kdesu (5.25.0-1) unstable; urgency=medium
 
