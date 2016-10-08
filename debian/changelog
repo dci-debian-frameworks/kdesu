@@ -1,3 +1,11 @@
+kdesu (5.27.0-1~1.gbpdc6f21) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @dc6f21e4e36340a8c0f5fbbaf28fd66eff13a09f **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 11:35:35 +0200
+
 kdesu (5.26.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
