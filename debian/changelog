@@ -1,3 +1,11 @@
+kdesu (5.28.0-2) unstable; urgency=medium
+
+  * Backport one upstream patch to fix XDG directory traversal, thanks
+    to Hans Schwimmbeck for the report and pointing to the commit
+    (Closes: #852553)
+
+ -- Didier Raboud <odyx@debian.org>  Wed, 25 Jan 2017 19:46:49 +0100
+
 kdesu (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
