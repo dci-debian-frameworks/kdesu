@@ -1,4 +1,4 @@
-kdesu (5.36.0-1~) UNRELEASED; urgency=medium
+kdesu (5.36.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.35.0).
@@ -8,6 +8,8 @@ kdesu (5.36.0-1~) UNRELEASED; urgency=medium
   * Drop upstream patches
   * watch: Use https uris
   * New upstream release (5.36.0).
+  * Bump group breaks (5.36)
+  * Update build-deps and deps with the info from cmake
 
   [ Harald Sitter ]
   * qt5.7 now wants c++11
@@ -16,7 +18,7 @@ kdesu (5.36.0-1~) UNRELEASED; urgency=medium
   * Add signing key
   * also include signing-key
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 13:43:34 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 09 Jul 2017 23:42:04 +0200
 
 kdesu (5.28.0-2) unstable; urgency=medium
 
