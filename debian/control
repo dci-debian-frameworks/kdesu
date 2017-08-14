@@ -27,7 +27,7 @@ Description: development files for kdesu
  Framework to handle super user actions.
  .
  Contains development files for kdesu.
-Breaks: libkf5kdelibs4support-dev (<< 5.36)
+Breaks: libkf5kdelibs4support-dev (<< 5.37)
 
 Package: libkf5su-bin
 Architecture: any
