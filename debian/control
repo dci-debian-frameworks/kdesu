@@ -63,6 +63,7 @@ Description: runtime files for kdesu (documentation)
  Framework to handle super user actions.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5su5
 Architecture: any
