@@ -5,29 +5,21 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
+               doxygen,
                extra-cmake-modules (>= 5.37.0~),
+               graphviz,
                libkf5coreaddons-dev (>= 5.37.0~),
                libkf5i18n-dev (>= 5.37.0~),
                libkf5pty-dev (>= 5.37.0~),
                libkf5service-dev (>= 5.37.0~),
+               libqt5sql5-sqlite,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.7.0~)
+               qtbase5-dev (>= 5.7.0~),
+               qttools5-dev-tools (>= 5.4),
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/frameworks/kdesu
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kdesu.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kdesu.git
-
-Package: libkf5su-dev
-Section: libdevel
-Architecture: any
-Depends: libkf5pty-dev (>= 5.37.0~),
-         libkf5su5 (= ${binary:Version}),
-         ${misc:Depends}
-Description: development files for kdesu
- Framework to handle super user actions.
- .
- Contains development files for kdesu.
-Breaks: libkf5kdelibs4support-dev (<< 5.37)
 
 Package: libkf5su-bin
 Architecture: any
@@ -39,16 +31,6 @@ Description: runtime files for kdesu
  .
  Contains runtime files for kdesu.
 
-Package: libkf5su5
-Architecture: any
-Multi-Arch: same
-Depends: libkf5su-data (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Recommends: libkf5su-bin (= ${binary:Version})
-Description: Integration with su for elevated privileges.
- Framework to handle super user actions
-
 Package: libkf5su-data
 Architecture: all
 Multi-Arch: foreign
@@ -59,3 +41,35 @@ Description: translation files for kdesu
  Framework to handle super user actions
  .
  Contains translation files for kdesu.
+
+Package: libkf5su-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5pty-dev (>= 5.37.0~),
+         libkf5su5 (= ${binary:Version}),
+         ${misc:Depends},
+Breaks: libkf5kdelibs4support-dev (<< 5.37)
+Recommends: libkf5su-doc (= ${source:Version})
+Description: development files for kdesu
+ Framework to handle super user actions.
+ .
+ Contains development files for kdesu.
+
+Package: libkf5su-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: runtime files for kdesu (documentation)
+ Framework to handle super user actions.
+ .
+ This package contains the qch documentation files.
+
+Package: libkf5su5
+Architecture: any
+Multi-Arch: same
+Depends: libkf5su-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Recommends: libkf5su-bin (= ${binary:Version})
+Description: Integration with su for elevated privileges.
+ Framework to handle super user actions

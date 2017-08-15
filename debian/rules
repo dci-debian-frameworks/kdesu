@@ -9,7 +9,7 @@ ifeq ($(shell dpkg-vendor --derives-from Ubuntu && echo yes),yes)
 endif
 
 override_dh_auto_configure:
-	$(overridden_command) -- $(KDESU_USE_SUDO_DEFAULT)
+	$(overridden_command) -- $(KDESU_USE_SUDO_DEFAULT) -DBUILD_QCH=ON
 
 override_dh_strip:
 	$(overridden_command) --dbgsym-migration='libkf5su5-dbg (<= 5.19.0-1~~)'
