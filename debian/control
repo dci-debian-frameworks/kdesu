@@ -6,12 +6,12 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
                doxygen,
-               extra-cmake-modules (>= 5.37.0~),
+               extra-cmake-modules (>= 5.38.0~),
                graphviz,
-               libkf5coreaddons-dev (>= 5.37.0~),
-               libkf5i18n-dev (>= 5.37.0~),
-               libkf5pty-dev (>= 5.37.0~),
-               libkf5service-dev (>= 5.37.0~),
+               libkf5coreaddons-dev (>= 5.38.0~),
+               libkf5i18n-dev (>= 5.38.0~),
+               libkf5pty-dev (>= 5.38.0~),
+               libkf5service-dev (>= 5.38.0~),
                libqt5sql5-sqlite,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.7.0~),
@@ -45,7 +45,7 @@ Description: translation files for kdesu
 Package: libkf5su-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5pty-dev (>= 5.37.0~),
+Depends: libkf5pty-dev (>= 5.38.0~),
          libkf5su5 (= ${binary:Version}),
          ${misc:Depends},
 Breaks: libkf5kdelibs4support-dev (<< 5.37)
