@@ -69,6 +69,7 @@ Package: libkf5su5
 Architecture: any
 Multi-Arch: same
 Depends: libkf5su-data (= ${source:Version}),
+         sudo,
          ${misc:Depends},
          ${shlibs:Depends},
 Recommends: libkf5su-bin (= ${binary:Version})

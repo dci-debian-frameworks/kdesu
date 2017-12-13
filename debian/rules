@@ -4,13 +4,8 @@
 %:
 	dh $@ --with kf5,pkgkde_symbolshelper --buildsystem kf5
 
-# Debian/Ubuntu divergence, Ubuntu uses sudo by default
-ifeq ($(shell dpkg-vendor --derives-from Ubuntu && echo yes),yes)
-	KDESU_USE_SUDO_DEFAULT="-DKDESU_USE_SUDO_DEFAULT=true"
-endif
-
 override_dh_auto_configure:
-	dh_auto_configure -- $(KDESU_USE_SUDO_DEFAULT) -DBUILD_QCH=ON
+	dh_auto_configure -- -DKDESU_USE_SUDO_DEFAULT=true -DBUILD_QCH=ON
 
 override_dh_strip:
 	dh_strip --dbgsym-migration='libkf5su5-dbg (<= 5.19.0-1~~)'
