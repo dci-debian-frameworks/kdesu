@@ -48,7 +48,7 @@ Architecture: any
 Depends: libkf5pty-dev (>= 5.42.0~),
          libkf5su5 (= ${binary:Version}),
          ${misc:Depends},
-Breaks: libkf5kdelibs4support-dev (<< 5.41)
+Breaks: libkf5kdelibs4support-dev (<< 5.42)
 Recommends: libkf5su-doc (= ${source:Version})
 Description: development files for kdesu
  Framework to handle super user actions.
